@@ -7,10 +7,17 @@ CSDNN is a protocol based on the combination of Compressed Sensing (CS) and a de
 
 2. We want to extend the supervised denoising approach to a more general usecase, that would allow us to reconstruct states of unknwon mixedness. To achieve this goal, we make use of the out-of-distribution (OOD) paradigm. In OOd we study the generalization ablity of a network applied on a dataset of data different from the one used during training. In our case, our DNN model is trained on pure states only,  and we analyze how efficient is in reconstructring state afflicted by depolarization noise of different strength.
 
-
-The git contains all the main codes used for the article realization. The **model** file is in a python notebook format, to help usage and understanding; model and other utilities are provided in the **utils** folder. Last, in the folder **article model**, the model used throghout all the experiment is provided. 
-
-
+## REPO structure
+The git contains all the main codes used for the article realization. The **model** file is in a python notebook format, to make its use and understanding handier; model and other utilities are just provided in the **utils** folder. Last, in the folder **article model**, the model used throghout all the experiment is provided. 
 
 
+## Dependencies
+
+- torch 2.0.1
+- cvxpy  1.4.
+- cuda-version 12.0          
+- cudnn   8.8.0.121
+- mosek  10.1.20
+- pandas 2.1.3
+- tqdm  4.66.1
 
