@@ -25,3 +25,4 @@ The git contains all the main codes used for the article realization. The **mode
 - pandas 2.1.3
 - tqdm  4.66.1
 
+/assets/background/br.png
