@@ -14,7 +14,7 @@ All information and details can be found in the article []()
 ## REPO structure
 - The git contains all the main codes used for the article realization. In the _AttentionModel.ipynb_ file, the whole train (valid)-test of the models is provided in a python notebook, to make its use and understanding handier; the model class and other utilities can be found in the **/utils**. In **/fixed point inference** a .py file for inferring the OOD esitmations with the fixed point strategy, as described in the article.
 
- - Last, in the folder **/article model**, a .ph file of the model used throghout all the experiment is provided. In **/CS analysis** the code to generate Fig.5. 
+ - Last, in the folder **/article model**, a .ph file of the model used throghout all the experiment is provided. In **/CS analysis** the code to produce Fig.5. 
 
 
 ## Dependencies
