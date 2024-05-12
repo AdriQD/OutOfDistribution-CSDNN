@@ -1,4 +1,3 @@
-`#03989e`
 # CSDNN for out-of-distribution state reconstruction
 
 
