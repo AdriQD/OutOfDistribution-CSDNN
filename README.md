@@ -12,7 +12,7 @@ CSDNN is a protocol based on the combination of Compressed Sensing (CS) and a de
 All information and details can be found in the article []()
 
 ## REPO structure
-The git contains all the main codes used for the article realization. The **model** file is in a python notebook format, to make its use and understanding handier; model and other utilities are just provided in the **utils** folder. Last, in the folder **article model**, the model used throghout all the experiment is provided. 
+The git contains all the main codes used for the article realization. In the **AttentionModel** file, the whole train (valid)-test of the models is provided in a python notebook, to make its use and understanding handier; the model class and other utilities can be found in the **/utils**. Last, in the folder **/article model**, a .ph file of the model used throghout all the experiment is provided. 
 
 
 ## Dependencies
